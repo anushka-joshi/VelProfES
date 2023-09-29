@@ -9,6 +9,7 @@
 
 <h4 align="center" style="font-size: 5px; font-weight: bold;">October 2023</h4>
 
+
 ## Description
 
 VelProfES (Velocity Profiler using Ensemble ML models), a stacked ensemble machine learning model that utlizes the synthetic dataset generated using conditional tabular generative adversarial networks and ensemble of various models to predict the shear wave velocity.
