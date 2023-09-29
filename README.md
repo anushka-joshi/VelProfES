@@ -16,7 +16,7 @@
 
 
 
-![description](Image/VelProfESArchitecture.jpg)
+![Model Architecture](Image/VelProfESArchitecture.jpg)
 
 
 
