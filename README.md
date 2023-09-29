@@ -8,6 +8,8 @@
 <h4 align="center" style="font-size: 5px; font-weight: bold;">Indian Institute of Technology, Roorkee</h4>
 
 <h4 align="center" style="font-size: 5px; font-weight: bold;">October 2023</h4>
+![GitHub Logo](https://github.com/yourusername/yourrepository/raw/main/images/yourimage.png)
+![Spearman Mixed crop](https://github.com/anushka-joshi/VelProfES/assets/85031397/95b6c53d-9ffe-4cdf-8d9c-b60fdc5d4409)
 
 ## Description
 
