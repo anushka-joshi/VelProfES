@@ -18,7 +18,7 @@
 
 ![Model Architecture](Image/VelProfESArchitecture.jpg)
 
-<img src="Image/VelProfESArchitecture.jpg" alt="Model Architecture" width="300" height="200">
+<img src="Image/VelProfESArchitecture.jpg" alt="Model Architecture" width="600" height="1000">
 
 
 
