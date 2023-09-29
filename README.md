@@ -1,4 +1,6 @@
 
+
+
 <h1 align="center">VelProfES</h1>
 
 <p align="center" style="font-size: 15px;">by</p>
@@ -12,10 +14,9 @@
 
 ## Description
 
-
-
-(![description](Image/VelProfESArchitecture.jpg))
-
+<p align="center">
+<img src="Image/VelProfESArchitecture.jpg" alt="Model Architecture" width="600" height="1000">
+</p>
 
 
 VelProfES (Velocity Profiler using Ensemble ML models), a stacked ensemble machine learning model that utlizes the synthetic dataset generated using conditional tabular generative adversarial networks and ensemble of various models to predict the shear wave velocity.
