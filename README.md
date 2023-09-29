@@ -1,4 +1,6 @@
 
+
+
 <h1 align="center">VelProfES</h1>
 
 <p align="center" style="font-size: 15px;">by</p>
@@ -14,7 +16,7 @@
 
 
 
-(![description](Image/VelProfESArchitecture.jpg))
+![description](Image/VelProfESArchitecture.jpg)
 
 
 
