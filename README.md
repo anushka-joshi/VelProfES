@@ -20,18 +20,19 @@
 
 
 VelProfES (Velocity Profiler using Ensemble ML models), a stacked ensemble machine learning model that utlizes the synthetic dataset generated using conditional tabular generative adversarial networks and ensemble of various models to predict the shear wave velocity.
-
+1. Input: [ $S_c$, $S_t$, $S_{c1}$, $S_{c2}$, $S_a$, $N$]
+2. Output: $V_s$ 
 ### Executing program
 
-The program can be executed in the Google Colaboratory, Jupyter notebook or any other platform that runs python code.
+The program can be executed in the Google Colaboratory, Jupyter Notebook, or any other platform that runs Python code.
 
 ## Result
-The result file named as 'Velocity_Result.csv' is generated after execution of the code. The file consists of the predictions from all the selected individual machine learning model and the VelProfES model.
+The result file named as 'Velocity_Result.csv' is generated after the execution of the code. The file consists of the predictions from all the selected individual machine learning models and the VelProfES model.
 
 ## Help
 
 The following advices are suggested while executing the program:
-1. The file location should be changed accordingly. The authors have used their respective file location.
+1. The file location should be changed accordingly. The authors have used their respective file locations.
 2. The tasks performed by the following functions are described below:
 ```python
 # Python function
@@ -42,9 +43,18 @@ Is used to read the test dataset provided in it. It returns the X_test and y_tes
 # Python function
 def Testing_on_Dataset()
 ```
-Is the function that predicts the magnitude of an earthquake using the MagPred model.
-3. The file named as 'Test_Dataset' is given as input file for prediction of magnitude. The Table represents the name of the input features used in the MagPred model to predict magnitude and their terminilogy given in manuscript.
+Is the function that predicts the shear wave velocity ($V_s$) using the VelProfES model.
+3. The file named 'Test_Dataset' is given as an input file for the prediction of $V_s$. The Table represents the name of the input features used in the VelProfES model to predict Vs and their terminologies given in the manuscript.
 
+| Name               | Abbreviation used in manuscript         | 
+| ---------------------|-----------------|
+| bold                 | $S_c$ | 
+| italic               | $S_t$     | 
+|Strikethrough         |  $S_{c1}$       |  
+|Bold and nested italic| $S_{c2}$ |  
+|All bold and italic   | $S_a$       |   
+|All bold and italic   | $N$      |   
+|All bold and italic   | $V_s$      |   
 
 # Author
 
