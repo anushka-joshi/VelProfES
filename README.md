@@ -36,25 +36,25 @@ The following advices are suggested while executing the program:
 2. The tasks performed by the following functions are described below:
 ```python
 # Python function
-def read_Syn():
+def create_TestSet():
 ```
 Is used to read the test dataset provided in it. It returns the X_test and y_test array that consists of input features and actual output prediction.
 ```python
 # Python function
-def Testing_on_Dataset()
+def layer_2_stack()
 ```
 Is the function that predicts the shear wave velocity ($V_s$) using the VelProfES model.
 3. The file named 'Test_Dataset' is given as an input file for the prediction of $V_s$. The Table represents the name of the input features used in the VelProfES model to predict Vs and their terminologies given in the manuscript.
 
 | Name               | Abbreviation used in manuscript         | 
 | ---------------------|-----------------|
-| bold                 | $S_c$ | 
-| italic               | $S_t$     | 
-|Strikethrough         |  $S_{c1}$       |  
-|Bold and nested italic| $S_{c2}$ |  
-|All bold and italic   | $S_a$       |   
-|All bold and italic   | $N$      |   
-|All bold and italic   | $V_s$      |   
+| Soil_Type                 | $S_c$ | 
+| Soil_Thickness               | $S_t$     | 
+|SoilCol1        |  $S_{c1}$       |  
+|SoilCol2| $S_{c2}$ |  
+|SoilAvg   | $S_a$       |   
+|NVal   | $N$      |   
+|Actual Vs   | $V_s$      |   
 
 # Author
 
